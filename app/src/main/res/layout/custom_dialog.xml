@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="12dp"
+            android:backgroundTint="#ECE7E7"
+            >
+
+            <TextView
+                android:id="@+id/tvInputCustomDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Input Data"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/edtJudul"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan Judul"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp" />
+
+            <EditText
+                android:id="@+id/edtCatatan"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:hint="Masukkan Catatan"
+                android:gravity="left"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="100dp" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="150dp"
+                android:layout_gravity="center"
+                android:text="Tambah Catatan"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:backgroundTint="#0D6B6E"
+                />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</layout>

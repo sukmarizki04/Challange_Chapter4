@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/drawable/ic_add.xml" value="0.153" />
         <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/drawable/ic_baseline_add_box_24.xml" value="0.2075" />
+        <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/drawable/ic_delete.xml" value="0.153" />
         <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/drawable/ic_eye.xml" value="0.199" />
         <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/drawable/ic_launcher_background.xml" value="0.181" />
         <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/drawable/ic_login.xml" value="0.181" />
         <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/layout/activity_main.xml" value="0.21" />
-        <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/layout/custom_dialog.xml" value="0.17074275362318841" />
+        <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/layout/custom_dialog_delete.xml" value="0.17074275362318841" />
+        <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/layout/fragment_home_.xml" value="0.17074275362318841" />
         <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/layout/fragment_login.xml" value="0.22" />
         <entry key="..\:/belajar_java/develoment_sofware/learn_sofware/Challange_Chapter4/app/src/main/res/layout/fragment_login_.xml" value="0.2" />

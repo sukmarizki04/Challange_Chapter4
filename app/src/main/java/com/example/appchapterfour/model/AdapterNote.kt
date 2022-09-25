@@ -1,9 +1,13 @@
 package com.example.appchapterfour.model
 
+import android.annotation.SuppressLint
+import android.app.Dialog
 import android.content.Context
+import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.example.appchapterfour.R
 import com.example.appchapterfour.center.asist.NoteDiffCall
 import com.example.appchapterfour.data.Anote
 import com.example.appchapterfour.databinding.ListItemBinding
@@ -22,18 +26,29 @@ class AdapterNote(var lister: OnAdapterListener): RecyclerView.Adapter<AdapterNo
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NoteViewHolder {
-        val binding = listitem
+        val binding = ListItemBinding.inflate(LayoutInflater.from(parent.context),parent,false)
+        return NoteViewHolder(binding)
     }
 
     override fun onBindViewHolder(holder: NoteViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        holder.bind(listnote[position])
     }
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return listnote.size
     }
     inner class NoteViewHolder(private val binding: ListItemBinding):RecyclerView.ViewHolder(binding.root) {
 
+        @SuppressLint("SuspicitionIdentation")
+        fun bind(note: Anote){
+            binding.dataNote == note
+            binding.ivDelete.setOnClickListener{
+                    val dialog = Dialog(context)
+                    dialog.setContentView(R.layout.custom_dialog_delete)
+                    dialog.window.
+            }
+
+        }
     }
 
 }
