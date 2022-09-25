@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.view.FragmentLogin">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login">
+
+            <TextView
+                android:id="@+id/tvlogin"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="121dp"
+                android:layout_marginEnd="78dp"
+                android:layout_centerHorizontal="true"
+                android:text="@string/login"
+                android:textColor="#ffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivlogin"
+                android:layout_marginTop="30dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/loginview"
+                android:layout_below="@+id/tvlogin"
+                android:layout_centerHorizontal="true" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvlogin"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/ivlogin"
+                android:layout_centerHorizontal="true"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:layout_marginTop="30dp">
+                <EditText
+                    android:id="@+id/edtemaillogin"
+                    android:hint="Email"
+                    android:gravity="center"
+                    android:background="@null"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"/>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvpassword"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/cvlogin"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                app:cardCornerRadius="20dp">
+                <EditText
+                    android:id="@+id/edtpasswordlogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/cvlogin"
+                    android:gravity="center"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:background="@null"/>
+                <ImageView
+                    android:id="@+id/iveyelogin"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_mata"
+                    android:layout_gravity="right"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cvpassword"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150dp"
+                android:backgroundTint="#0D6B6E"
+                android:text="Login" />
+            <TextView
+                android:id="@+id/tvaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/no_accout"
+                android:textColor="@color/black"
+                android:layout_below="@+id/btnLogin"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</layout>

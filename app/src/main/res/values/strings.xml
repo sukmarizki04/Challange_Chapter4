@@ -1,0 +1,14 @@
+<resources>
+    <string name="name_Register">Masukkan Username</string>
+    <string name="email_Register">Masukkan Email</string>
+    <string name="password_konfirmasi_register">Masukkan Konfirmasi Password</string>
+    <string name="password_register">Masukkan Password</string>
+    <string name="add">Add</string>
+    <string name="delete">delete</string>
+    <string name="no_accout">Belum punya account?</string>
+    <string name="text_hint_email">Masukkan E-mail</string>
+    <string name="text_hint_password">Masukkan password</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daftar">Daftar</string>
+    <string name="login">Login</string>
+</resources>
