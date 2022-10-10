@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="menu_delete">Delete</item>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item  android:id="@+id/menu_action_logout"
+            android:icon="@drawable/ic_baseline_transit_enterexit_24"
+            app:showAsAction="always"
+            android:title="exit" />
 </menu>

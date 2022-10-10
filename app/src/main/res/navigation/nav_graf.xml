@@ -2,4 +2,20 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graf" />
+    android:id="@+id/nav_graf"
+    app:startDestination="@id/formLogin">
+    <fragment
+        android:id="@+id/formLogin"
+        android:name="com.example.appchapterfour.presentation.loginfragment.FormLogin"
+        android:label="fragment_form_login"
+        tools:layout="@layout/fragment_form_login" >
+        <action
+            android:id="@+id/action_formLogin_to_fragmentRegister"
+            app:destination="@id/fragmentRegister" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentRegister"
+        android:name="com.example.appchapterfour.presentation.ui.register.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+</navigation>
